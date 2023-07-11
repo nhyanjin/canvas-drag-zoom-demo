@@ -16,7 +16,7 @@ wx.createSelectorQuery()
 
 ## 组件效果
 
-<img width="300" src="https://github.com/lhyanjin/canvas-drag-zoom-demo/blob/master/demo.gif"></img>
+<img width="300" src="https://github.com/nhyanjin/canvas-drag-zoom-demo/blob/main/demo.jpg"></img>
 
 ## 使用之前
 
