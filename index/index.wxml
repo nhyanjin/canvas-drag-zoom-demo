@@ -1,0 +1,14 @@
+<view style="position: relative;">
+    <canvas type="2d" id="myCanvas" style="width: 750rpx; height: 750rpx; border: 1px solid black;" bindtouchstart="start" bindtouchmove="move" bindtouchend="end"></canvas>
+    <button bindtap="addImage">添加图片</button>
+    <button bindtap="addBackground">添加背景</button>
+    <button bindtap="addText">添加文字</button>
+    <button bindtap="clearRect">清除</button>
+    <!-- 重要提示： 因小程序新版本canvas不再使用<cover-view>,此页面canvas添加背景后在真机下才会看到正常覆盖 -->
+    <!-- <view style="position: absolute;top: 0;left: 0;z-index: 100;">
+        <view style="width: 200px;height: 200px;background: blue;">
+            <button bindtap="addImage">添加图片</button>
+            <button bindtap="clearRect">清除</button>
+        </view>
+    </view> -->
+</view>
